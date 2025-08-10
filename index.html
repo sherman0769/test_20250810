@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人畫廊</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="hero-header">
+        <div class="container">
+            <h1>我的畫廊</h1>
+            <p class="subtitle">一個展示個人作品的空間</p>
+            <div class="separator"></div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- Gallery items will be injected by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Lightbox Structure -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img src="" alt="Lightbox image" class="lightbox-image" id="lightbox-image">
+        <button class="lightbox-nav prev" id="lightbox-prev">&#10094;</button>
+        <button class="lightbox-nav next" id="lightbox-next">&#10095;</button>
+    </div>
+
+    <script src="js/gallery.js"></script>
+
+</body>
+</html>

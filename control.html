@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>控制頁</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>控制頁</h1>
+      <nav>
+        <a href="/">返回展示頁</a>
+      </nav>
+    </header>
+    <main>
+      <p>選擇圖片並上傳，替換對應的圖庫位置。</p>
+      <div class="controls">
+        <!-- 12 張圖片的上傳表單 -->
+        <form class="upload-form" action="/upload?slot=1" method="post" enctype="multipart/form-data">
+          <label>替換第 1 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=2" method="post" enctype="multipart/form-data">
+          <label>替換第 2 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=3" method="post" enctype="multipart/form-data">
+          <label>替換第 3 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=4" method="post" enctype="multipart/form-data">
+          <label>替換第 4 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=5" method="post" enctype="multipart/form-data">
+          <label>替換第 5 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=6" method="post" enctype="multipart/form-data">
+          <label>替換第 6 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=7" method="post" enctype="multipart/form-data">
+          <label>替換第 7 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=8" method="post" enctype="multipart/form-data">
+          <label>替換第 8 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=9" method="post" enctype="multipart/form-data">
+          <label>替換第 9 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=10" method="post" enctype="multipart/form-data">
+          <label>替換第 10 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=11" method="post" enctype="multipart/form-data">
+          <label>替換第 11 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+        <form class="upload-form" action="/upload?slot=12" method="post" enctype="multipart/form-data">
+          <label>替換第 12 張：</label>
+          <input type="file" name="file" accept="image/*" required />
+          <button type="submit">上傳</button>
+        </form>
+      </div>
+    </main>
+    <script src="/js/control.js"></script>
+  </body>
+</html>
